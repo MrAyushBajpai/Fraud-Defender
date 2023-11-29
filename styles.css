@@ -96,3 +96,19 @@ body {
     padding: 20px 0;
     text-align: center;
 }
+
+@keyframes waveAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(+10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#animated-svg {
+    animation: waveAnimation 2s infinite;
+}
