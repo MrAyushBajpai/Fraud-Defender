@@ -49,6 +49,10 @@ body {
     color: var(--primary-text-color);
 }
 
+.justify {
+    text-align: justify;
+}
+
 .clickable-card {
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
